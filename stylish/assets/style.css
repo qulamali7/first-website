@@ -1,0 +1,314 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-image: url(./img/header-bck.jpg);
+    position: relative;
+    height: 650px;
+}
+
+.content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-content h1 {
+    color: black;
+    font-size: 88px;
+}
+
+.header-content p {
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.btn {
+    height: 65px;
+    width: 175px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: aliceblue;
+    margin-top: 40px;
+}
+
+.header-btn {
+    background-color: #1D809F;
+    transition: 0.5sn;
+}
+
+.header-btn:hover {
+    background-color: #196d87;
+}
+
+.header-icon {
+    position: fixed;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 13px;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    background: rgba(52, 58, 64, 0.5);
+    transition: 0.5sn;
+}
+
+.top-icon {
+    top: 15px;
+}
+
+.bottom-icon {
+    bottom: 15px;
+}
+
+.header-icon:hover {
+    background: #212529;
+}
+
+.offer {
+    height: 430px;
+    text-align: center;
+}
+
+.offer-content h2 {
+    color: black;
+    font-size: 32px;
+}
+
+.offer-content p {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.offer-btn {
+    background-color: #212529;
+}
+
+.offer-btn:hover {
+    background-color: #196d87;
+}
+
+.service {
+    background-color: #1D809F;
+    height: 570px;
+    gap: 10px;
+}
+
+.service-title h3 {
+    color: #ecb807;
+}
+
+.service-title h2 {
+    color: #fff;
+    font-size: 60px;
+}
+
+.service-content {
+    display: flex;
+}
+
+.service-card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ser-card-icon {
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 32px;
+    color: #1D809F;
+    font-size: 36px;
+}
+
+.service-card span {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.service-card p {
+    color: #fff;
+}
+
+.download-now {
+    height: 650px;
+}
+
+.download-now {
+    background-image: url(./img/download-bck.jpg);
+}
+
+.download-content {
+    width: 800px;
+}
+
+.download-content h1 {
+    font-size: 56px;
+}
+
+.download-btn {
+    background-color: #1D809F;
+    transition: 0.5sn;
+}
+
+.download-btn:hover {
+    background-color: #196d87;
+}
+
+.portfolio {
+    padding: 60px;
+}
+
+.portfolio-title h3 {
+    color: #ecb807;
+}
+
+.portfolio-title h2 {
+    color: #212529;
+    font-size: 60px;
+}
+
+.portfolio-content {
+    display: flex;
+    padding: 30px;
+}
+
+.portfolio-card {
+    display: flex;
+    width: 1040px;
+    flex-wrap: wrap;
+}
+
+.portfolio-card-content {
+    position: relative;
+    height: 345px;
+    width: 520px;
+}
+
+.portfolio-card-content-hvr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 345px;
+    width: 520px;
+    background-color: #1D809F;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.portfolio-card-content-hvr:hover {
+    opacity: 0.8;
+}
+
+.portfolio-card-text h4 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.portfolio-card-text p {
+    color: #fff;
+}
+
+.portfolio-card-text {
+    width: 360px;
+    text-align: start;
+    position: absolute;
+    left: 70px;
+    bottom: 70px;
+}
+
+.buttons {
+    background-color: #1D809F;
+}
+
+.buttons-content {
+    padding: 90px;
+}
+
+.buttons-content h1 {
+    color: aliceblue;
+}
+
+.buttons-btn-clk {
+    background-color: aliceblue;
+    color: black;
+    transition: 0.5s all ease;
+    margin-right: 15px;
+}
+
+.buttons-btn-clk:hover {
+    background-color: #196d87;
+    border: 1px solid aliceblue;
+}
+
+.buttons-btn {
+    background-color: #212529;
+}
+
+.buttons-btn:hover {
+    background-color: #196d87;
+    border: 1px solid aliceblue;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 10px;
+    padding: 80px;
+}
+
+.footer-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #1D809F;
+    transition: 0.5s all ease;
+}
+.footer-icon i{
+    color: aliceblue;
+}
+
+.footer-icon:hover {
+    background-color: #196d87;
+}
+
+.footer-icon i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer p {
+    padding-bottom: 30px;
+    color: #6c757d;
+}
